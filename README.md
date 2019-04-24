@@ -2,5 +2,5 @@
 
 Repo for oblig 4 i DAT109 - Modelldrevet utvikling
 
-## Gruppemedlemmer
+### Gruppemedlemmer
 Arne Kvaleberg, Are Dæhlen, Jokub Morsund, Marcus Morlandstø
