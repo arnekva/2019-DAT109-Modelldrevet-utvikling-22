@@ -1,67 +1,72 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf200
-{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+class LoggInn {
 
-\f0\fs24 \cf0 class LoggInn \{\
-\
-	String mobilnr;\
-	String passord;\
-	String feilmelding;\
-	\
-	String tillatmobilnr;\
-	String tillatpassord;\
-	\
-	* -- 1 StandEAO;\
-	\
-\}\
-class PassordUtil \{\
-    \
-\
-\
-int SALTLENGDE;\
-    String PASSORD_TEGNSETT;\
-    String HASH_ALGORITME;\
-  \
-\}\
-class Redigere\{\
-	\
-	* -- 1 StandEAO;\
-	String tittel;\
-	String gruppenavn;\
-	String lokasjon;\
-	String bilde;\
-	String beskrivelse;\
-	\
-	* -- 1 Stand;\
-	\
-\}\
-class StandEAO \{\
-\
-\
-EntityManager em;\
-\}\
-class StandRating \{\
-\
-	* -- 1 User ;\
-	 * -- 1 Stand;\
- double rating;\
-\}\
-class User \{\
-\
-     int tlfnr;\
-  String passord;\
-\}\
-class Stand \{\
-int standid;\
-\
-	String tittel;\
-	String beskrivelse;\
-	String gruppenavn;\
-	String lokasjon;\
-	String bildeurl;\
-	String qrUrl;\
-	double kalkulertscore;\
-\}}
+	String mobilnr;
+	String passord;
+	String feilmelding;
+
+	String tillatmobilnr;
+	String tillatpassord;
+
+	* -- 1 StandEAO;
+
+}
+class Registrering{
+    String passord;
+	String passordFeil;
+	String tlf;
+	String tlfFeil;
+	String repeterPassord;
+	String repeterFeil;
+
+
+     * -- 1 StandEAO;
+}
+class PassordUtil {
+
+
+
+int SALTLENGDE;
+    String PASSORD_TEGNSETT;
+    String HASH_ALGORITME;
+
+}
+class Redigere{
+
+	* -- 1 StandEAO;
+	String tittel;
+	String gruppenavn;
+	String lokasjon;
+	String bilde;
+	String beskrivelse;
+
+	* -- 1 Stand;
+
+}
+class StandEAO {
+
+
+EntityManager em;
+}
+class StandRating {
+    int tlf;
+    int standId;
+    double rating;
+	* -- 1 User ;
+	* -- 1 Stand;
+}
+class User {
+
+    int tlfnr;
+    String passord;
+}
+class Stand {
+int standid;
+
+	String tittel;
+	String beskrivelse;
+	String gruppenavn;
+	String lokasjon;
+	String bildeurl;
+	String qrUrl;
+	double kalkulertscore;
+}
