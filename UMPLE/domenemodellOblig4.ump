@@ -1,0 +1,72 @@
+class LoggInn {
+
+	String mobilnr;
+	String passord;
+	String feilmelding;
+
+	String tillatmobilnr;
+	String tillatpassord;
+
+	isA StandEAO;
+
+}
+class Registrering{
+    String passord;
+	String passordFeil;
+	String tlf;
+	String tlfFeil;
+	String repeterPassord;
+	String repeterFeil;
+
+
+     isA StandEAO;
+}
+class PassordUtil {
+
+
+
+int SALTLENGDE;
+    String PASSORD_TEGNSETT;
+    String HASH_ALGORITME;
+
+}
+class Redigere{
+
+	isA StandEAO;
+	String tittel;
+	String gruppenavn;
+	String lokasjon;
+	String bilde;
+	String beskrivelse;
+
+	* -- 1 Stand;
+
+}
+class StandEAO {
+
+
+EntityManager em;
+}
+class StandRating {
+    int tlf;
+    int standId;
+    double rating;
+	* -- 1 User ;
+	* -- 1 Stand;
+}
+class User {
+
+    int tlfnr;
+    String passord;
+}
+class Stand {
+int standid;
+
+	String tittel;
+	String beskrivelse;
+	String gruppenavn;
+	String lokasjon;
+	String bildeurl;
+	String qrUrl;
+	double kalkulertscore;
+}
