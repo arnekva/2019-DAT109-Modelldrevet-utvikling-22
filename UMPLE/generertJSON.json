@@ -1,0 +1,500 @@
+{
+  "umpleClasses": [
+    {
+      "position": {
+        "x": 50,
+        "y": 30,
+        "width": 109,
+        "height": 45
+      },
+      "attributes": [
+        {
+          "type": "String",
+          "name": "mobilnr",
+          "modifier": "",
+          "traceColor": "black"
+        },
+        {
+          "type": "String",
+          "name": "passord",
+          "modifier": "",
+          "traceColor": "black"
+        },
+        {
+          "type": "String",
+          "name": "feilmelding",
+          "modifier": "",
+          "traceColor": "black"
+        },
+        {
+          "type": "String",
+          "name": "tillatmobilnr",
+          "modifier": "",
+          "traceColor": "black"
+        },
+        {
+          "type": "String",
+          "name": "tillatpassord",
+          "modifier": "",
+          "traceColor": "black"
+        }
+      ],
+      "methods": [],
+      "id": "LoggInn",
+      "name": "LoggInn",
+      "isAbstract": "false",
+      "displayColor": "",
+      "isInterface": "false"
+    },
+    {
+      "position": {
+        "x": 50,
+        "y": 130,
+        "width": 109,
+        "height": 45
+      },
+      "attributes": [
+        {
+          "type": "String",
+          "name": "passord",
+          "modifier": "",
+          "traceColor": "black"
+        },
+        {
+          "type": "String",
+          "name": "passordFeil",
+          "modifier": "",
+          "traceColor": "black"
+        },
+        {
+          "type": "String",
+          "name": "tlf",
+          "modifier": "",
+          "traceColor": "black"
+        },
+        {
+          "type": "String",
+          "name": "tlfFeil",
+          "modifier": "",
+          "traceColor": "black"
+        },
+        {
+          "type": "String",
+          "name": "repeterPassord",
+          "modifier": "",
+          "traceColor": "black"
+        },
+        {
+          "type": "String",
+          "name": "repeterFeil",
+          "modifier": "",
+          "traceColor": "black"
+        }
+      ],
+      "methods": [],
+      "id": "Registrering",
+      "name": "Registrering",
+      "isAbstract": "false",
+      "displayColor": "",
+      "isInterface": "false"
+    },
+    {
+      "position": {
+        "x": 50,
+        "y": 230,
+        "width": 109,
+        "height": 45
+      },
+      "attributes": [
+        {
+          "type": "int",
+          "name": "SALTLENGDE",
+          "modifier": "",
+          "traceColor": "black"
+        },
+        {
+          "type": "String",
+          "name": "PASSORD_TEGNSETT",
+          "modifier": "",
+          "traceColor": "black"
+        },
+        {
+          "type": "String",
+          "name": "HASH_ALGORITME",
+          "modifier": "",
+          "traceColor": "black"
+        }
+      ],
+      "methods": [],
+      "id": "PassordUtil",
+      "name": "PassordUtil",
+      "isAbstract": "false",
+      "displayColor": "",
+      "isInterface": "false"
+    },
+    {
+      "position": {
+        "x": 50,
+        "y": 330,
+        "width": 109,
+        "height": 45
+      },
+      "attributes": [
+        {
+          "type": "String",
+          "name": "tittel",
+          "modifier": "",
+          "traceColor": "black"
+        },
+        {
+          "type": "String",
+          "name": "gruppenavn",
+          "modifier": "",
+          "traceColor": "black"
+        },
+        {
+          "type": "String",
+          "name": "lokasjon",
+          "modifier": "",
+          "traceColor": "black"
+        },
+        {
+          "type": "String",
+          "name": "bilde",
+          "modifier": "",
+          "traceColor": "black"
+        },
+        {
+          "type": "String",
+          "name": "beskrivelse",
+          "modifier": "",
+          "traceColor": "black"
+        }
+      ],
+      "methods": [],
+      "id": "Redigere",
+      "name": "Redigere",
+      "isAbstract": "false",
+      "displayColor": "",
+      "isInterface": "false"
+    },
+    {
+      "position": {
+        "x": 50,
+        "y": 430,
+        "width": 109,
+        "height": 45
+      },
+      "attributes": [
+        {
+          "type": "EntityManager",
+          "name": "em",
+          "modifier": "",
+          "traceColor": "black"
+        }
+      ],
+      "methods": [],
+      "id": "StandEAO",
+      "name": "StandEAO",
+      "isAbstract": "false",
+      "displayColor": "",
+      "isInterface": "false"
+    },
+    {
+      "position": {
+        "x": 250,
+        "y": 30,
+        "width": 109,
+        "height": 45
+      },
+      "attributes": [
+        {
+          "type": "int",
+          "name": "tlf",
+          "modifier": "",
+          "traceColor": "black"
+        },
+        {
+          "type": "int",
+          "name": "standId",
+          "modifier": "",
+          "traceColor": "black"
+        },
+        {
+          "type": "double",
+          "name": "rating",
+          "modifier": "",
+          "traceColor": "black"
+        }
+      ],
+      "methods": [],
+      "id": "StandRating",
+      "name": "StandRating",
+      "isAbstract": "false",
+      "displayColor": "",
+      "isInterface": "false"
+    },
+    {
+      "position": {
+        "x": 250,
+        "y": 130,
+        "width": 109,
+        "height": 45
+      },
+      "attributes": [
+        {
+          "type": "int",
+          "name": "tlfnr",
+          "modifier": "",
+          "traceColor": "black"
+        },
+        {
+          "type": "String",
+          "name": "passord",
+          "modifier": "",
+          "traceColor": "black"
+        }
+      ],
+      "methods": [],
+      "id": "User",
+      "name": "User",
+      "isAbstract": "false",
+      "displayColor": "",
+      "isInterface": "false"
+    },
+    {
+      "position": {
+        "x": 250,
+        "y": 230,
+        "width": 109,
+        "height": 45
+      },
+      "attributes": [
+        {
+          "type": "int",
+          "name": "standid",
+          "modifier": "",
+          "traceColor": "black"
+        },
+        {
+          "type": "String",
+          "name": "tittel",
+          "modifier": "",
+          "traceColor": "black"
+        },
+        {
+          "type": "String",
+          "name": "beskrivelse",
+          "modifier": "",
+          "traceColor": "black"
+        },
+        {
+          "type": "String",
+          "name": "gruppenavn",
+          "modifier": "",
+          "traceColor": "black"
+        },
+        {
+          "type": "String",
+          "name": "lokasjon",
+          "modifier": "",
+          "traceColor": "black"
+        },
+        {
+          "type": "String",
+          "name": "bildeurl",
+          "modifier": "",
+          "traceColor": "black"
+        },
+        {
+          "type": "String",
+          "name": "qrUrl",
+          "modifier": "",
+          "traceColor": "black"
+        },
+        {
+          "type": "double",
+          "name": "kalkulertscore",
+          "modifier": "",
+          "traceColor": "black"
+        }
+      ],
+      "methods": [],
+      "id": "Stand",
+      "name": "Stand",
+      "isAbstract": "false",
+      "displayColor": "",
+      "isInterface": "false"
+    }
+  ],
+  "umpleAssociations": [
+    {
+      "offsetOnePosition": {
+        "x": 6,
+        "y": 119,
+        "width": 0,
+        "height": 0
+      },
+      "offsetTwoPosition": {
+        "x": 30,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "id": "umpleAssociation_0",
+      "classOneId": "LoggInn",
+      "classTwoId": "StandEAO",
+      "multiplicityOne": "*",
+      "multiplicityTwo": "1",
+      "name": "LoggInn__StandEAO",
+      "roleOne": "",
+      "roleTwo": "",
+      "isLeftNavigable": "true",
+      "isRightNavigable": "true",
+      "isLeftComposition": "false",
+      "isRightComposition": "false",
+      "isSymmetricReflexive": "false",
+      "isTraced": "black"
+    },
+    {
+      "offsetOnePosition": {
+        "x": 11,
+        "y": 135,
+        "width": 0,
+        "height": 0
+      },
+      "offsetTwoPosition": {
+        "x": 30,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "id": "umpleAssociation_1",
+      "classOneId": "Registrering",
+      "classTwoId": "StandEAO",
+      "multiplicityOne": "*",
+      "multiplicityTwo": "1",
+      "name": "Registrering__StandEAO",
+      "roleOne": "",
+      "roleTwo": "",
+      "isLeftNavigable": "true",
+      "isRightNavigable": "true",
+      "isLeftComposition": "false",
+      "isRightComposition": "false",
+      "isSymmetricReflexive": "false",
+      "isTraced": "black"
+    },
+    {
+      "offsetOnePosition": {
+        "x": 30,
+        "y": 45,
+        "width": 0,
+        "height": 0
+      },
+      "offsetTwoPosition": {
+        "x": 30,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "id": "umpleAssociation_2",
+      "classOneId": "Redigere",
+      "classTwoId": "StandEAO",
+      "multiplicityOne": "*",
+      "multiplicityTwo": "1",
+      "name": "Redigere__StandEAO",
+      "roleOne": "",
+      "roleTwo": "",
+      "isLeftNavigable": "true",
+      "isRightNavigable": "true",
+      "isLeftComposition": "false",
+      "isRightComposition": "false",
+      "isSymmetricReflexive": "false",
+      "isTraced": "black"
+    },
+    {
+      "offsetOnePosition": {
+        "x": 109,
+        "y": 10,
+        "width": 0,
+        "height": 0
+      },
+      "offsetTwoPosition": {
+        "x": 0,
+        "y": 10,
+        "width": 0,
+        "height": 0
+      },
+      "id": "umpleAssociation_3",
+      "classOneId": "Redigere",
+      "classTwoId": "Stand",
+      "multiplicityOne": "*",
+      "multiplicityTwo": "1",
+      "name": "Redigere__Stand",
+      "roleOne": "",
+      "roleTwo": "",
+      "isLeftNavigable": "true",
+      "isRightNavigable": "true",
+      "isLeftComposition": "false",
+      "isRightComposition": "false",
+      "isSymmetricReflexive": "false",
+      "isTraced": "black"
+    },
+    {
+      "offsetOnePosition": {
+        "x": 22,
+        "y": 86,
+        "width": 0,
+        "height": 0
+      },
+      "offsetTwoPosition": {
+        "x": 30,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "id": "umpleAssociation_4",
+      "classOneId": "StandRating",
+      "classTwoId": "User",
+      "multiplicityOne": "*",
+      "multiplicityTwo": "1",
+      "name": "StandRating__User",
+      "roleOne": "",
+      "roleTwo": "",
+      "isLeftNavigable": "true",
+      "isRightNavigable": "true",
+      "isLeftComposition": "false",
+      "isRightComposition": "false",
+      "isSymmetricReflexive": "false",
+      "isTraced": "black"
+    },
+    {
+      "offsetOnePosition": {
+        "x": 8,
+        "y": 86,
+        "width": 0,
+        "height": 0
+      },
+      "offsetTwoPosition": {
+        "x": 30,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "id": "umpleAssociation_5",
+      "classOneId": "StandRating",
+      "classTwoId": "Stand",
+      "multiplicityOne": "*",
+      "multiplicityTwo": "1",
+      "name": "Stand__StandRating",
+      "roleOne": "",
+      "roleTwo": "",
+      "isLeftNavigable": "true",
+      "isRightNavigable": "true",
+      "isLeftComposition": "false",
+      "isRightComposition": "false",
+      "isSymmetricReflexive": "false",
+      "isTraced": "black"
+    }
+  ]
+}

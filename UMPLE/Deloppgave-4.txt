@@ -11,3 +11,20 @@ Det er også kommet veldig mange boolean verdier som vi aldri har brukt eller no
 Det er heller ingen servlets, men det kan brukes som et utgangspunkt for grunnmuren i prosjektet vårt.
 
 Generert SQL-kode:
+
+
+SQL-koden som ble generert er veldig lik den vi brukte, bare at
+den har generert et table for hver klasse, noe vi ikke hadde bruk for.
+
+Vi brukte kun table for User, Stand og Standrating. Den har valgt samme
+primærnøkler og korrekte fremmednøkler, utenom i standrating hvor vi brukte
+kombinert PK (standid, tlf) slik at hver bruker kan stemme på mer enn èn stand.
+
+
+Generert JSON-kode:
+
+JSON er et alternativ vi kunne brukt til databaselagring. Hvis vi hadde hatt tid til å sette
+oss inn i det, ville det vært en mye lettere løsning enn en SQL-database. Med en enkel
+JSON-parser kunne vi fått dataene ut av filen(e).
+
+Den har generert mye overflødig kode for "tables" vi ikke bruker, samt overflødige "traceColors" og lignende.  
