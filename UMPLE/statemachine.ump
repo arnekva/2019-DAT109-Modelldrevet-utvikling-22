@@ -1,0 +1,47 @@
+
+namespace Gruppe22;
+class Expo
+{
+   status {
+     QR{
+     Scan -> Stand;}
+      Standliste { KlikkerPaaStand -> Stand;  }
+          Stand {
+            
+          ErLoggetInn ->Rating;
+          ikkeLoggetInn -> Logginn;
+            erLoggetInnSomJury -> Jury;
+            viseAlleStands -> Standliste;
+      	}
+
+      	Logginn { Korrektinfo -> Stand;
+                feilInfo -> Logginn;
+                harIkkebruker -> Registrering;}
+
+     Registrering{
+     registrererbruker -> Stand;
+     ugyldiginfo -> Registrering;}
+      	Rating {
+       feilverdi -> Rating;
+         erLoggetInnOgVerdiGyldig -> Stand;
+      	}
+     Jury{
+       ikkeLoggetInnSomJury -> Standliste;
+       godkjentKonto -> Juryfunksjoner;
+     }
+     Juryfunksjoner{
+     Endre -> EndreStand;
+     Leggtil -> LeggtilStand;
+     SeScore -> Poengtavle;}
+     EndreStand{
+     UgyldigInfo -> EndreStand;
+     godkjentEndring -> Juryfunksjoner;}
+     LeggtilStand{
+     UgyldigInput -> LeggtilStand;
+     godkjentStand -> Juryfunksjoner;}
+     Poengtavle{
+     TrykkepaaStand -> Stand;}
+
+
+}
+}
