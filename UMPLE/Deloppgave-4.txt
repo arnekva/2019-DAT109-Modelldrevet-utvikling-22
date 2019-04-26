@@ -1,0 +1,13 @@
+4. Diskutér hvordan den genererte koden er i forhold til koden som din gruppe implementerte i prosjektoppgaven.
+For eksempel, hvilke klasser/tabeller er like/forskjellige og hvordan, osv.
+
+
+Generert Java-kode:
+
+Med tanke på at dette er basert på domenemodellen og ikke klassediagram, så tar ikke den genererte koden høyde for metoder/funksjoner vi brukte og som kobler klassene sammen.
+
+Det er også kommet veldig mange boolean verdier som vi aldri har brukt eller noensinne ville hatt bruk for.
+
+Det er heller ingen servlets, men det kan brukes som et utgangspunkt for grunnmuren i prosjektet vårt.
+
+Generert SQL-kode:
