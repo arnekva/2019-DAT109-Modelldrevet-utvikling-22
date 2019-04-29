@@ -28,3 +28,25 @@ oss inn i det, ville det vært en mye lettere løsning enn en SQL-database. Med 
 JSON-parser kunne vi fått dataene ut av filen(e).
 
 Den har generert mye overflødig kode for "tables" vi ikke bruker, samt overflødige "traceColors" og lignende.  
+
+
+
+##For tilstandsdiagram:
+
+Vi har også generert kode for tilstandsdiagrammet, men disse genererte kodene har ingen logikk. SQL blir for eksempel:
+
+CREATE DATABASE IF NOT EXISTS `gruppe_22`;
+USE `gruppe_22`;
+
+CREATE TABLE IF NOT EXISTS `gruppe_22`.`expo`
+
+(
+
+status ENUM('qr', 'standliste', 'stand', 'logginn', 'registrering', 'rating', 'jury', 'juryfunksjoner', 'endre_stand', 'leggtil_stand', 'poengtavle'),
+
+PRIMARY KEY(status)
+
+);
+
+
+Generert Java-kode og JSON-kode er like lite informative. Det er ikke i nærheten av nok til å i det hele tatt ligne på noe av det vi hadde. 
