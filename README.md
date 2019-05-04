@@ -4,8 +4,8 @@ Repo for oblig 4 i DAT109 - Modelldrevet utvikling
 
 ## Gruppemedlemmer
 
-## Gruppe 22
+### Gruppe 22
 Arne Kvaleberg, Are Dæhlen, Jokub Morsund, Marcus Morlandstø
 
-## Gruppe 23
+### Gruppe 23
 Anders Kvamsøe, Sivert Lunde, Christopher Jamil
