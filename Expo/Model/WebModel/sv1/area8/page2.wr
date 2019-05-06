@@ -1,0 +1,25 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv1#area8#page2" name="Min Side" linkOrder="sv1#area8#page2#ln28" gr:x="0" gr:y="0">
+  <ContentUnits>
+    <MultiMessageUnit id="sv1#area8#page2#mssu4" name="Actions" gr:x="0" gr:y="0"/>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area8#page2#mssu4"/>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+  <Link id="sv1#area8#page2#ln28" name="Flow18" to="sv1#miu5" type="normal" automaticCoupling="true" validate="true"/>
+  <Link id="sv1#area8#page2#ln30" name="Flow16" to="sv1#miu6" type="normal" automaticCoupling="true" validate="true"/>
+</Page>

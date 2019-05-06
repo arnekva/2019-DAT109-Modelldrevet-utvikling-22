@@ -1,3 +1,22 @@
-<SiteView id="sv1" name="EXPO" landmarks="sv1#area1" homePage="sv1#area1#page3">
-  <OperationUnits/>
+<SiteView xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv1" name="EXPO" landmarks="sv1#area2 sv1#area3 sv1#area4 sv1#area5 sv1#area6 sv1#area7 sv1#area8" homePage="sv1#area3#page10">
+  <OperationUnits>
+    <ModuleInstanceUnit id="sv1#miu1" name="invalid" gr:x="1055" gr:y="35" action="true">
+      <Link id="sv1#miu1#ln19" name="Flow13" to="sv1#area7#page1" type="transport" automaticCoupling="true" validate="true" gr:bendpoints="-15,-28,-15,72"/>
+    </ModuleInstanceUnit>
+    <ModuleInstanceUnit id="sv1#miu2" name="valid login" gr:x="480" gr:y="15" action="true">
+      <Link id="sv1#miu2#ln21" name="Flow15" to="sv1#area4#page9" type="transport" automaticCoupling="true" validate="true"/>
+    </ModuleInstanceUnit>
+    <ModuleInstanceUnit id="sv1#miu3" name="incorrect login" gr:x="250" gr:y="335" action="true">
+      <Link id="sv1#miu3#ln23" name="Flow10" to="sv1#area3#page10" type="transport" automaticCoupling="true" validate="true" gr:bendpoints="-36,-58,24,112"/>
+    </ModuleInstanceUnit>
+    <ModuleInstanceUnit id="sv1#miu4" name="registrer" gr:x="675" gr:y="100" action="true">
+      <Link id="sv1#miu4#ln25" name="Flow14" to="sv1#area4#page9#inu2" type="transport" automaticCoupling="true" validate="true"/>
+    </ModuleInstanceUnit>
+    <ModuleInstanceUnit id="sv1#miu5" name="Logg ut" gr:x="435" gr:y="575" action="true">
+      <Link id="sv1#miu5#ln27" name="Flow19" to="sv1#area3#page10" type="transport" automaticCoupling="true" validate="true"/>
+    </ModuleInstanceUnit>
+    <ModuleInstanceUnit id="sv1#miu6" name="Slett bruker" gr:x="405" gr:y="675" action="true">
+      <Link id="sv1#miu6#ln29" name="Flow17" to="sv1#area5#page11" type="transport" automaticCoupling="true" validate="true"/>
+    </ModuleInstanceUnit>
+  </OperationUnits>
 </SiteView>

@@ -1,0 +1,36 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv1#area7#page1" name="Registrer" linkOrder="sv1#area7#page1#ln20" gr:x="0" gr:y="0">
+  <ContentUnits>
+    <EntryUnit id="sv1#area7#page1#enu3" name="Registrering" gr:x="0" gr:y="0" entity="ent4">
+      <VRules>
+        <FormNotEmptyValidationRule id="sv1#area7#page1#enu3#fnevr2" name="Form Not Empty2"/>
+      </VRules>
+      <Field id="sv1#area7#page1#enu3#fld6" name="Tlfnr" type="integer" modifiable="true" attribute="ent4#att15"/>
+      <Field id="sv1#area7#page1#enu3#fld7" name="Passord" type="password" modifiable="true" attribute="ent4#att16"/>
+      <Field id="sv1#area7#page1#enu3#fld8" name="PassordRepetert" type="password" modifiable="true" attribute="ent4#att17"/>
+    </EntryUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area7#page1#enu3">
+          <layout:Field field="sv1#area7#page1#enu3#fld6"/>
+          <layout:Field field="sv1#area7#page1#enu3#fld7"/>
+          <layout:Field field="sv1#area7#page1#enu3#fld8"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+  <Link id="sv1#area7#page1#ln20" name="Flow12" to="sv1#miu1" type="normal" automaticCoupling="true" validate="true"/>
+  <Link id="sv1#area7#page1#ln26" name="Flow11" to="sv1#miu4" type="normal" automaticCoupling="true" validate="true"/>
+</Page>
