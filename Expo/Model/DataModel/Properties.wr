@@ -57,7 +57,9 @@
     <Attribute id="ent3#att12" key="true" name="tlf" type="integer"/>
     <Attribute id="ent3#att14" name="password" type="password"/>
   </Entity>
-  <Entity gr:x="1015" gr:y="720" id="ent4" name="Registrer" duration="persistent">
-    <Attribute id="ent4#att13" key="true" name="oid" type="integer"/>
+  <Entity gr:x="1015" gr:y="720" id="ent4" name="Registrer" duration="persistent" attributeOrder="ent4#att15 ent4#att16 ent4#att17">
+    <Attribute id="ent4#att15" name="tlf" type="integer"/>
+    <Attribute id="ent4#att16" name="password" type="password"/>
+    <Attribute id="ent4#att17" name="passwordRepeat" type="password"/>
   </Entity>
 </DataModel>
