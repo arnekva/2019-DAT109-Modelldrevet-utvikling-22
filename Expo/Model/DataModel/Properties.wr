@@ -53,4 +53,11 @@
     <RelationshipRole1 id="rel2#role3" name="StandRatingToStand" maxCard="N"/>
     <RelationshipRole2 id="rel2#role4" name="StandToStandRating" maxCard="1"/>
   </Relationship>
+  <Entity gr:x="860" gr:y="515" id="ent3" name="LoggInn" duration="persistent" attributeOrder="ent3#att12 ent3#att14">
+    <Attribute id="ent3#att12" key="true" name="tlf" type="integer"/>
+    <Attribute id="ent3#att14" name="password" type="password"/>
+  </Entity>
+  <Entity gr:x="1015" gr:y="720" id="ent4" name="Registrer" duration="persistent">
+    <Attribute id="ent4#att13" key="true" name="oid" type="integer"/>
+  </Entity>
 </DataModel>
