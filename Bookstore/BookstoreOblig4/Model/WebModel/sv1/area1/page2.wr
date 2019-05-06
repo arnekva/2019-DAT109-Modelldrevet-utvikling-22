@@ -1,0 +1,34 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="300" gr:y="5" id="sv1#area1#page2" name="Product List">
+  <ContentUnits>
+    <PowerIndexUnit gr:x="0" gr:y="0" id="sv1#area1#page2#pwu2" name="ProductList" sortable="true" checkable="false" useCountQuery="false" linkOrder="sv1#area1#page2#pwu2#ln2" entity="ent5">
+      <Link id="sv1#area1#page2#pwu2#ln2" name="Flow2" to="sv1#area1#page3#dau1" type="normal" validate="true">
+        <LinkParameter id="sv1#area1#page2#pwu2#ln2#par8" name="Description_PASSING" source="data[].ent5#att18" passing="true"/>
+        <LinkParameter id="sv1#area1#page2#pwu2#ln2#par9" name="Name_PASSING" source="data[].ent5#att17" passing="true"/>
+        <LinkParameter id="sv1#area1#page2#pwu2#ln2#par10" name="Price_PASSING" source="data[].ent5#att19" passing="true"/>
+        <LinkParameter id="sv1#area1#page2#pwu2#ln2#par11" name="ProductId_PASSING" source="data[].ent5#att5" passing="true"/>
+        <LinkParameter id="sv1#area1#page2#pwu2#ln2#par12" name="ProductId (block)_PASSING" source="ent5#att5Array" passing="true"/>
+        <LinkParameter id="sv1#area1#page2#pwu2#ln2#par13" name="ProductToOrder.CartId_PASSING" source="data[].rel10#role20_ent4#att4" passing="true"/>
+      </Link>
+    </PowerIndexUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area1#page2#pwu2">
+          <layout:Link link="sv1#area1#page2#pwu2#ln2"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>
