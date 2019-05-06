@@ -1,0 +1,56 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv1#area3#page15" name="Registrering" gr:x="5" gr:y="255" landmark="true">
+  <ContentUnits>
+    <EntryUnit gr:x="0" gr:y="0" id="sv1#area3#page15#enu7" name="Registrering" entity="ent4" fieldOrder="sv1#area3#page15#enu7#fld18 sv1#area3#page15#enu7#fld19 sv1#area3#page15#enu7#fld20" linkOrder="sv1#area3#page15#enu7#ln41">
+      <Field id="sv1#area3#page15#enu7#fld20" name="PassordRepetert" type="password" modifiable="true" attribute="ent4#att17"/>
+      <Field id="sv1#area3#page15#enu7#fld19" name="Passord" type="password" modifiable="true" attribute="ent4#att16"/>
+      <Field id="sv1#area3#page15#enu7#fld18" name="Tlf" type="integer" modifiable="true" attribute="ent4#att15"/>
+      <VRules>
+        <FormNotEmptyValidationRule id="sv1#area3#page15#enu7#fnevr5" name="Form Not Empty5"/>
+      </VRules>
+      <Link id="sv1#area3#page15#enu7#ln41" name="Flow41" to="sv1#miu8" type="normal" validate="true">
+        <LinkParameter id="sv1#area3#page15#enu7#ln41#par20" name="Passord_Passord" source="sv1#area3#page15#enu7#fld19" target="sv1#miu8.mov2#opm3#icu5#icp4"/>
+        <LinkParameter id="sv1#area3#page15#enu7#ln41#par21" name="Tlf_Tlf" source="sv1#area3#page15#enu7#fld18" target="sv1#miu8.mov2#opm3#icu5#icp3"/>
+      </Link>
+    </EntryUnit>
+    <MultiMessageUnit gr:x="10" gr:y="105" id="sv1#area3#page15#mssu9" name="Feilmelding"/>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area3#page15#enu7">
+          <layout:Field field="sv1#area3#page15#enu7#fld18"/>
+          <layout:Field field="sv1#area3#page15#enu7#fld19"/>
+          <layout:Field field="sv1#area3#page15#enu7#fld20"/>
+          <layout:Link link="sv1#area3#page15#enu7#ln41"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area3#page15#mssu9"/>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

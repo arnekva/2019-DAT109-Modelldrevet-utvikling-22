@@ -1,0 +1,15 @@
+<OperationModule xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="250" gr:y="165" id="mov2#opm5" name="Slett Bruker">
+  <OperationUnits>
+    <InputCollectorUnit id="mov2#opm5#icu7" gr:x="30" gr:y="60" linkOrder="mov2#opm5#icu7#ln47">
+      <InputCollectorParameter id="mov2#opm5#icu7#icp5" name="Tlf"/>
+      <Link id="mov2#opm5#icu7#ln47" name="Flow47" to="mov2#opm5#dlu1" type="transport" validate="true">
+        <LinkParameter id="mov2#opm5#icu7#ln47#par23" name="Tlf_KeyCondition2 [oid]" source="mov2#opm5#icu7#icp5" target="mov2#opm5#dlu1#su2#kcond2.userOID"/>
+      </Link>
+    </InputCollectorUnit>
+    <DeleteUnit gr:x="320" gr:y="60" id="mov2#opm5#dlu1" name="Slett bruker" entity="User">
+      <Selector id="mov2#opm5#dlu1#su2" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="mov2#opm5#dlu1#su2#kcond2" name="KeyCondition2" predicate="in" implied="false"/>
+      </Selector>
+    </DeleteUnit>
+  </OperationUnits>
+</OperationModule>

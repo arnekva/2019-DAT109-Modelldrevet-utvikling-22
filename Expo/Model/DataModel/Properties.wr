@@ -1,7 +1,7 @@
 <DataModel xmlns:gr="http://www.webratio.com/2006/WebML/Graph">
-  <Entity id="User" name="User" duration="persistent" gr:x="20" gr:y="158" gr:hideAttributes="false" attributeOrder="userOID userName password email">
-    <Attribute name="oid" id="userOID" type="integer" key="true"/>
-    <Attribute name="tlf" id="userName" type="integer"/>
+  <Entity id="User" name="User" duration="persistent" gr:x="20" gr:y="158" gr:hideAttributes="false" attributeOrder="userOID password userName email">
+    <Attribute name="tlf" id="userOID" type="integer" key="true"/>
+    <Attribute name="nok en variabel" id="userName" type="integer"/>
     <Attribute name="password" id="password" type="password"/>
     <Attribute name="ekstravariabel som ikke kan slettes" id="email" type="string"/>
   </Entity>
@@ -32,8 +32,8 @@
   </Relationship>
   <Entity gr:x="175" gr:y="490" id="ent1" name="StandRating" duration="persistent" attributeOrder="ent1#att1 ent1#att2 ent1#att3">
     <Attribute id="ent1#att1" key="true" name="standid" type="integer"/>
-    <Attribute id="ent1#att2" name="tlf" type="integer"/>
-    <Attribute id="ent1#att3" name="rating" type="integer"/>
+    <Attribute id="ent1#att2" name="tlf" type="integer" key="true"/>
+    <Attribute id="ent1#att3" name="rating" type="integer" key="false"/>
   </Entity>
   <Entity gr:x="155" gr:y="730" id="ent2" name="Stand" duration="persistent" attributeOrder="ent2#att4 ent2#att5 ent2#att6 ent2#att7 ent2#att8 ent2#att9 ent2#att10 ent2#att11">
     <Attribute id="ent2#att4" key="true" name="standid" type="integer"/>
@@ -53,11 +53,11 @@
     <RelationshipRole1 id="rel2#role3" name="StandRatingToStand" maxCard="N"/>
     <RelationshipRole2 id="rel2#role4" name="StandToStandRating" maxCard="1"/>
   </Relationship>
-  <Entity gr:x="860" gr:y="515" id="ent3" name="LoggInn" duration="persistent" attributeOrder="ent3#att12 ent3#att14">
-    <Attribute id="ent3#att12" key="true" name="tlf" type="integer"/>
-    <Attribute id="ent3#att14" name="password" type="password"/>
+  <Entity gr:x="425" gr:y="500" id="ent3" name="LoggInn" duration="persistent" attributeOrder="ent3#att12 ent3#att14">
+    <Attribute id="ent3#att12" key="false" name="tlf" type="integer"/>
+    <Attribute id="ent3#att14" name="password" type="password" key="false"/>
   </Entity>
-  <Entity gr:x="1015" gr:y="720" id="ent4" name="Registrer" duration="persistent" attributeOrder="ent4#att15 ent4#att16 ent4#att17">
+  <Entity gr:x="420" gr:y="745" id="ent4" name="Registrer" duration="persistent" attributeOrder="ent4#att15 ent4#att16 ent4#att17">
     <Attribute id="ent4#att15" name="tlf" type="integer"/>
     <Attribute id="ent4#att16" name="password" type="password"/>
     <Attribute id="ent4#att17" name="passwordRepeat" type="password"/>

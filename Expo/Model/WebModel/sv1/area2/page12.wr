@@ -1,6 +1,21 @@
 <Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv1#area2#page12" name="Forside" gr:x="0" gr:y="0">
   <ContentUnits>
-    <MultiMessageUnit id="sv1#area2#page12#mssu6" name="Info" gr:x="0" gr:y="0"/>
+    <MultiMessageUnit id="sv1#area2#page12#mssu6" name="HVL Expo 2019" gr:x="0" gr:y="0">
+      <Message xml:space="preserve">Hvert &#229;r stiller avgangsstudenter ved FIN og F&#216;S Campus Bergen ut sine prosjekter under en stor utstilling p&#229; Kronstad. Utstillingen er &#229;pen for publikum, og det deles ut pengepremier til de beste utstillingene. Lykke til!
+Kort om expo:
+
+    Du kan vise frem bachelorprosjektet ditt for resten av kullet ditt, mamma, pappa, bestefar og s&#248;sken.
+
+    Du kan vinne pengepremier for beste utstilling
+
+    Du kan vinne pengepremier for beste film
+
+    Du m&#248;ter alle de andre 3. &#229;rsstudentene p&#229; FIN og F&#216;S, og kan se hva de har holdt p&#229; med de siste tre &#229;rene
+
+Har du det som skal til&#8230;
+
+&#8230;for &#229; vinne litt ekstra penger til sommerferien? Det eneste du trenger &#229; gj&#248;re er &#229; lage en informativ, morsom, overraskende og/eller annerledes utstilling av ditt bachelor- eller masterprosjekt. De beste gruppene vinner pengepremier, diplomer og heder og &#230;re! Vil du vite mer om hva dommerne ser etter? De er p&#229; jakt etter utstillinger som markedsf&#248;rer og formidler faget sitt og oppgaven sin p&#229; en god m&#229;te. Det er det som fenger juryen &#171;der og da&#187; som premieres, ikke n&#248;dvendigvis det faglige innholdet i arbeidet (det er en egne premier for faglig innhold i etterkant av EXPO). Det deles ut ca. 8 priser p&#229; 3 000 kr til hver av vinnergruppene. Priskategoriene varierer noe fra &#229;r til &#229;r, men noen eksempler p&#229; tidligere priser er "Beste stand", "Den gr&#248;nne prisen", "Innovasjonsprisen" etc. Du kan ogs&#229; vinne pris for beste video. Det gj&#248;r du ved &#229; lage en kort presentasjon av prosjektet eller prosessen frem mot prosjektet. Videoen b&#248;r v&#230;re p&#229; maks to minutter. Husk &#229; f&#229; frem hva prosjektet ditt handler om! Bruk #hvlexpo18 for &#229; delta i konkurransen, og send en e-post med lenke til bidraget til Elin Espe Stensvand innen mandag 11. juni. </Message>
+    </MultiMessageUnit>
   </ContentUnits>
   <layout:Grid containerType="grid">
     <layout:Row>

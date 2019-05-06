@@ -1,22 +1,18 @@
-<SiteView xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv1" name="EXPO" landmarks="sv1#area2 sv1#area3 sv1#area4 sv1#area5 sv1#area6 sv1#area7 sv1#area8" homePage="sv1#area3#page10">
+<SiteView xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv1" name="EXPO" landmarks="sv1#area3 sv1#area4 sv1#area5 sv1#area8 sv1#area2 sv1#area6" homePage="sv1#area2#page12">
   <OperationUnits>
-    <ModuleInstanceUnit id="sv1#miu1" name="invalid" gr:x="1055" gr:y="35" action="true">
-      <Link id="sv1#miu1#ln19" name="Flow13" to="sv1#area7#page1" type="transport" automaticCoupling="true" validate="true" gr:bendpoints="-15,-28,-15,72"/>
+    <ModuleInstanceUnit gr:x="525" gr:y="170" id="sv1#miu7" action="true" name="Logginn" moduleId="mov2#opm2" linkOrder="sv1#miu7#ln44">
+      <KOLink id="sv1#miu7#kln1" name="KOFlow1" to="sv1#area3#page10#mssu8" gr:bendpoints="-3,74,197,-2">
+        <LinkParameter id="sv1#miu7#kln1#par13" name="Feil brukernavn/passord_Shown Messages" sourceValue="Feil brukernavn/passord" target="sv1#area3#page10#mssu8.shownMessages"/>
+      </KOLink>
+      <Link id="sv1#miu7#ln44" name="Flow44" to="sv1#area4#page9" automaticCoupling="true" type="transport" validate="true"/>
     </ModuleInstanceUnit>
-    <ModuleInstanceUnit id="sv1#miu2" name="valid login" gr:x="480" gr:y="15" action="true">
-      <Link id="sv1#miu2#ln21" name="Flow15" to="sv1#area4#page9" type="transport" automaticCoupling="true" validate="true"/>
+    <ModuleInstanceUnit gr:x="525" gr:y="415" id="sv1#miu8" action="true" name="Registrering" moduleId="mov2#opm3" linkOrder="sv1#miu8#ln45">
+      <KOLink id="sv1#miu8#kln3" name="KOFlow3" to="sv1#area3#page15#mssu9" gr:bendpoints="-4,90,192,0">
+        <LinkParameter id="sv1#miu8#kln3#par22" name="Feil i registrering_Shown Messages" sourceValue="Feil i registrering" target="sv1#area3#page15#mssu9.shownMessages"/>
+      </KOLink>
+      <Link id="sv1#miu8#ln45" name="Flow45" to="sv1#area4#page9" automaticCoupling="true" type="transport" validate="true"/>
     </ModuleInstanceUnit>
-    <ModuleInstanceUnit id="sv1#miu3" name="incorrect login" gr:x="250" gr:y="335" action="true">
-      <Link id="sv1#miu3#ln23" name="Flow10" to="sv1#area3#page10" type="transport" automaticCoupling="true" validate="true" gr:bendpoints="-36,-58,24,112"/>
-    </ModuleInstanceUnit>
-    <ModuleInstanceUnit id="sv1#miu4" name="registrer" gr:x="675" gr:y="100" action="true">
-      <Link id="sv1#miu4#ln25" name="Flow14" to="sv1#area4#page9#inu2" type="transport" automaticCoupling="true" validate="true"/>
-    </ModuleInstanceUnit>
-    <ModuleInstanceUnit id="sv1#miu5" name="Logg ut" gr:x="435" gr:y="575" action="true">
-      <Link id="sv1#miu5#ln27" name="Flow19" to="sv1#area3#page10" type="transport" automaticCoupling="true" validate="true"/>
-    </ModuleInstanceUnit>
-    <ModuleInstanceUnit id="sv1#miu6" name="Slett bruker" gr:x="405" gr:y="675" action="true">
-      <Link id="sv1#miu6#ln29" name="Flow17" to="sv1#area5#page11" type="transport" automaticCoupling="true" validate="true"/>
-    </ModuleInstanceUnit>
+    <ModuleInstanceUnit gr:x="185" gr:y="775" id="sv1#miu9" action="true" name="Loggut" moduleId="mov2#opm4"/>
+    <ModuleInstanceUnit gr:x="175" gr:y="660" id="sv1#miu10" action="true" name="Slett bruker" moduleId="mov2#opm5"/>
   </OperationUnits>
 </SiteView>
