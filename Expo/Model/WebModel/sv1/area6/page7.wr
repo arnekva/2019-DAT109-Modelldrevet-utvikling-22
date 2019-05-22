@@ -1,23 +1,9 @@
-<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv1#area6#page7" name="Kontakt" gr:x="0" gr:y="0">
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv1#area6#page7" name="Kontakt" gr:x="0" gr:y="0" landmark="false">
   <ContentUnits>
-    <MultiMessageUnit id="sv1#area6#page7#mssu5" name="Info" gr:x="0" gr:y="0"/>
-  </ContentUnits>
-  <layout:Grid containerType="grid">
-    <layout:Row>
-      <layout:Cell colspan="12">
-        <layout:Unit unitId="sv1#area6#page7#mssu5"/>
-      </layout:Cell>
-      <layout:Cell/>
-      <layout:Cell/>
-      <layout:Cell/>
-      <layout:Cell/>
-      <layout:Cell/>
-      <layout:Cell/>
-      <layout:Cell/>
-      <layout:Cell/>
-      <layout:Cell/>
-      <layout:Cell/>
-      <layout:Cell/>
-    </layout:Row>
-  </layout:Grid>
-</Page>
+    <MultiMessageUnit id="sv1#area6#page7#mssu5" name="Kontakt oss" gr:x="0" gr:y="0">
+      <Message xml:space="preserve">
+Telefon:
++47 555 97 000
+E-post:
+expo2019@hvl.no
+</Message>    </MultiMessageUnit>  </ContentUnits>  <layout:Grid containerType="grid">    <layout:Row>      <layout:Cell colspan="12">        <layout:Unit unitId="sv1#area6#page7#mssu5"/>      </layout:Cell>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>    </layout:Row>  </layout:Grid></Page>

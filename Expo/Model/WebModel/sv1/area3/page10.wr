@@ -1,12 +1,17 @@
-<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv1#area3#page10" name="Logg inn" linkOrder="sv1#area3#page10#ln22" gr:x="0" gr:y="0">
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv1#area3#page10" name="Logg inn" gr:x="0" gr:y="0" landmark="true">
   <ContentUnits>
-    <EntryUnit id="sv1#area3#page10#enu5" name="Innlogging" gr:x="0" gr:y="0" entity="ent3">
+    <EntryUnit id="sv1#area3#page10#enu5" name="Innlogging" gr:x="5" gr:y="0" entity="ent3" linkOrder="sv1#area3#page10#enu5#ln39">
       <VRules>
         <FormNotEmptyValidationRule id="sv1#area3#page10#enu5#fnevr4" name="Form Not Empty1"/>
       </VRules>
       <Field id="sv1#area3#page10#enu5#fld11" name="Tlfnr" type="integer" modifiable="true" attribute="ent3#att12"/>
       <Field id="sv1#area3#page10#enu5#fld12" name="Passord" type="password" modifiable="true" attribute="ent3#att14"/>
+      <Link id="sv1#area3#page10#enu5#ln39" name="Logg inn" to="sv1#miu7" type="normal" validate="true">
+        <LinkParameter id="sv1#area3#page10#enu5#ln39#par14" name="Passord_Passord" source="sv1#area3#page10#enu5#fld12" target="sv1#miu7.mov2#opm2#icu4#icp2"/>
+        <LinkParameter id="sv1#area3#page10#enu5#ln39#par15" name="Tlfnr_Tlf" source="sv1#area3#page10#enu5#fld11" target="sv1#miu7.mov2#opm2#icu4#icp1"/>
+      </Link>
     </EntryUnit>
+    <MultiMessageUnit gr:x="0" gr:y="100" id="sv1#area3#page10#mssu8" name="Feilmelding"/>
   </ContentUnits>
   <layout:Grid containerType="grid">
     <layout:Row>
@@ -14,6 +19,7 @@
         <layout:Unit unitId="sv1#area3#page10#enu5">
           <layout:Field field="sv1#area3#page10#enu5#fld11"/>
           <layout:Field field="sv1#area3#page10#enu5#fld12"/>
+          <layout:Link link="sv1#area3#page10#enu5#ln39"/>
         </layout:Unit>
       </layout:Cell>
       <layout:Cell/>
@@ -28,7 +34,21 @@
       <layout:Cell/>
       <layout:Cell/>
     </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area3#page10#mssu8"/>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
   </layout:Grid>
-  <Link id="sv1#area3#page10#ln22" name="Flow8" to="sv1#miu2" type="normal" automaticCoupling="true" validate="true"/>
-  <Link id="sv1#area3#page10#ln24" name="Flow9" to="sv1#miu3" type="normal" automaticCoupling="true" validate="true"/>
 </Page>
